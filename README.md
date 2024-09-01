@@ -6,7 +6,7 @@
 ![3D Development](https://img.shields.io/badge/3D%20Development-000000?style=for-the-badge&logo=3d&logoColor=white)
 [![GitHub Repo](https://img.shields.io/github/stars/Robok-inc/robok-engine?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Robok-inc/robok-engine)
 [![Issues](https://img.shields.io/github/issues/Robok-inc/robok-engine?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Robok-inc/robok-engine/issues)
-[![License](https://img.shields.io/badge/license-GNU-green?style=for-the-badge)](https://github.com/robok-inc/robok-inc.github.io?tab=GPL-3.0-1-ov-file)
+[![License](https://img.shields.io/badge/license-GPL-green?style=for-the-badge)](https://github.com/robok-inc/robok-inc.github.io?tab=GPL-3.0-1-ov-file)
 
 ## 🚀 Features
 
