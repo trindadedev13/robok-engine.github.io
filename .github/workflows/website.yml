@@ -1,0 +1,37 @@
+name: Robok Website
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '14'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build project
+        run: npm run build
+
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete old workflows
+        run: |
+          # Script to delete old workflows
+          rm -rf .github/workflows/old-workflows/
+  
+  configuration:
+    steps:
+      - name: Site
+        run: echo "index_directory=./website" >> $GITHUB_ENV
