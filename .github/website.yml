@@ -1,1 +1,12 @@
+site:
+  configuration:
+    index_directory: "./website"
 
+github_actions:
+  cleanup:
+    description: "Remove old GitHub Actions workflows"
+    actions:
+      - name: "Delete old workflows"
+        run: |
+          # Script to delete old workflows
+          rm -rf .github/workflows/old-workflows/
