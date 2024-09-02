@@ -1,5 +1,4 @@
-# Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+name: Static
 
 on:
   push:
@@ -37,10 +36,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-      - name: Send WhatsApp message via CallMeBot
-        run: |
-          curl -X GET "https://api.callmebot.com/whatsapp.php?phone=${{ secrets.CALLMEBOT_PHONE }}&text=%F0%9F%93%A2+Oak+Store+Web+Atualizada%21%0A%0A%F0%9F%9A%80+Confira+as+%C3%BAltimas+melhorias+e+atualiza%C3%A7%C3%B5es+diretamente+na+nossa+plataforma.%0AAcesse+o+link+abaixo+para+explorar+a+nova+vers%C3%A3o%3A%0A%0A%F0%9F%94%97+https%3A%2F%2Fgampiot-inc.github.io%2FOak-Store-Web%0A%0A%F0%9F%93%82+Reposit%C3%B3rio%3A+${{ github.repository }}&apikey=${{ secrets.CALLMEBOT_API_KEY }}"
-
-      - name: Debug WhatsApp
-        run: echo "Sending message to WhatsApp..."
