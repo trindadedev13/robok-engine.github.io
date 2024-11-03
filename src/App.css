@@ -1,8 +1,16 @@
+/*
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+}
+*/
+:root {
+  --md-sys-color-primary: olive;
+  --md-sys-color-secondary: tomato;
+  --md-ref-typeface-brand: 'Open Sans';
+  --md-ref-typeface-plain: system-ui;
 }
 
 .logo {
