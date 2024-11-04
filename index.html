@@ -15,24 +15,43 @@
   </script>
 </head>
 <body>
-  <h1 class="md-typescale-display-medium">Hello Material!</h1>
-  <form>
-    <p class="md-typescale-body-medium">Check out these controls in a form!</p>
-    <md-checkbox></md-checkbox>
-    <div>
-      <md-radio name="group"></md-radio>
-      <md-radio name="group"></md-radio>
-      <md-radio name="group"></md-radio>
-    </div>
-    <md-outlined-text-field label="Favorite color" value="Purple"></md-outlined-text-field>
-    <md-outlined-button type="reset">Reset</md-outlined-button>
-  </form>
+  <h1 class="md-typescale-display-medium">About Robok Engine</h1>
+  <p class="md-typescale-body-medium">
+    The Robok Engine is an innovative and powerful platform designed for developing robotics applications. 
+    It provides a comprehensive set of tools and libraries that streamline the creation, simulation, and deployment of robotic systems.
+  </p>
+  <p class="md-typescale-body-medium">
+    Key features of the Robok Engine include:
+  </p>
+  <ul>
+    <li>Intuitive user interface for easy project management.</li>
+    <li>Support for various programming languages including Python and C++.</li>
+    <li>Advanced simulation capabilities to test robotic behaviors in a virtual environment.</li>
+    <li>Integration with popular robotics frameworks and hardware.</li>
+    <li>Active community support and extensive documentation.</li>
+  </ul>
+  <p class="md-typescale-body-medium">
+    Whether you're a hobbyist or a professional, the Robok Engine offers the flexibility and tools you need to bring your robotics projects to life.
+  </p>
+
+  <md-outlined-button 
+    onclick="window.location.href='https://github.com/robok-engine/robok-engine'" 
+    class="md-typescale-button-medium">
+    Download from GitHub
+  </md-outlined-button>
+
   <style>
-    form {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 16px;
+    body {
+      font-family: 'Roboto', sans-serif;
+      padding: 16px;
+      background-color: #f5f5f5;
+    }
+    h1 {
+      margin-bottom: 16px;
+    }
+    ul {
+      list-style-type: disc;
+      margin-left: 20px;
     }
   </style>
 </body>
